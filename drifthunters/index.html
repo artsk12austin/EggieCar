@@ -30,9 +30,9 @@ button {
 
 </style>
 
-        <link rel="stylesheet" href="/src/style.css">
-    <script src="/src/UnityProgress.js"></script>
-	<script src="/build/unityloader9.js"></script>
+        <link rel="stylesheet" href="/games/drifthunters/src/style.css">
+    <script src="/games/drifthunters/src/UnityProgress.js"></script>
+	<script src="/games/drifthunters/build/unityloader9.js"></script>
 
     <script type="text/javascript">
 
@@ -53,7 +53,7 @@ button {
 
         bttn.onclick = function () {
 
-          gameInstance = UnityLoader.instantiate("gameContainer", "/src/itchio.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+          gameInstance = UnityLoader.instantiate("gameContainer", "/games/drifthunters/src/itchio.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
           this.remove();
         }
       }
