@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible"		content="IE=edge,chrome=1">
+		
+		<title>a trip out to sea</title>
+		<meta name="description"				content="Embarquez pour une expérience interactive et immersive.">
+		<meta name="keywords"					content="sortieenmer, sortie en mer, guycotten, guy cotten, sortie, mer, grouek, cclm, clmbbdo">
+		<meta itemprop="name"					content="Sortie en Mer">
+		<meta itemprop="description"			content="Embarquez pour une expérience interactive et immersive.">
+		<meta property="og:title"				content="Sortie en mer">
+		<meta property="og:description"			content="Embarquez pour une expérience interactive et immersive.">
+		<meta property="og:site_name"			content="Sortie en mer">
+		<meta itemprop="image"					content="/images/share_fr.png">
+		<meta property="og:type"				content="website">
+		<meta property="og:url"					content="sortieenmer.com">
+		<meta property="fb:admins"				content="682394036">
+		<meta property="og:image"				content="/images/share_fr.png">
+		<meta property="og:image:type"			content="image/jpg">
+		<meta property="og:image:width"			content="1200">
+		<meta property="og:image:height"		content="630">
+
+
+		
+		<link rel="author" href="humans.txt" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+
+		
+			<script src="js/vendor/modernizr.js"></script>
+
+		
+		<script type="text/javascript">
+		
+			// (function(doc) {
+
+			// 	var addEvent = 'addEventListener',
+			// 		type = 'gesturestart',
+			// 		qsa = 'querySelectorAll',
+			// 		scales = [1, 1],
+			// 		meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+			 
+			// 	function fix() {
+			// 		meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+			// 		doc.removeEventListener(type, fix, true);
+			// 	}
+			 
+			// 	if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+			// 		fix();
+			// 		scales = [.25, 1.6];
+			// 		doc[addEvent](type, fix, true);
+			// 	}
+			 
+			// }(document));
+			// 
+			/* http://gist.github.com/scottjehl/2051999 */
+
+			
+		</script>
+
+		<script type="text/javascript">
+
+			var config = {
+
+				DEBUG			: 0,
+				LOG				: 0,
+				PROD			: 1,
+				CDN				: 1,
+				SOUND			: 1,
+				COUNT			: 4195892,
+				LANG			: 'en',
+				UA				: 'UA-47788216-1',
+				FB_ID			: null,
+				FB_ID_DEV		: '741472612564883',
+				FB_ID_PROD		: '1455067931391402'
+			};
+
+			window.config.FB_ID = (window.config.PROD) ? window.config.FB_ID_PROD : window.config.FB_ID_DEV;
+
+		</script>
+
+	</head>
+	<body oncontextmenu="return false;">
+
+		<div id="fb-root"></div>
+		
+		<div id="app-wrapper"></div>
+
+		<script type="text/javascript">
+			
+			/**
+			 * FACEBOOK
+			 */
+			
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId		: window.config.FB_ID,
+					status		: true,
+					xfbml		: true
+				});
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/en_US/all.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			/**
+			 * GOOGLE+
+			 */
+			
+			window.___gcfg = {
+				lang: 'en'
+			};
+
+			(function() {
+				var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				po.src = 'http://apis.google.com/js/plusone.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+			})();
+
+
+			/**
+			 * ANALYTICS
+			 */
+			
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', window.config.UA]);
+			_gaq.push(['_setDomainName', 'sortieenmer.com']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'http://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+
+		</script>
+
+		<script src="js/vendor/vendor.js"></script>
+		<script src="js/templates.js"></script>
+		<script src="js/main.js"></script>
+			</body>
+</html>
