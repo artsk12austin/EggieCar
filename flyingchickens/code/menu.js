@@ -50,7 +50,7 @@ scene('menu', () => {
     let btnPos = vec2(center().add(0, SCALE*(0.9 + i)));
 
     add([
-      text([(window.self == window.top ? 'PLAY'), 'HELP'][i], {
+      text([(window.self == window.top ? 'PLAY', 'HELP'][i], {
         align: 'center',
         size: SCALE*0.4,
         font: 'manrope',
