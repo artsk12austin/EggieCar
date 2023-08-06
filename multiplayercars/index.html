@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>car game</title>
+    <style>
+	  body, html {
+ 	   margin: 0;
+ 	   padding: 0;
+ 	   height: 100%;
+	   background-color: black;
+ 	   overflow: hidden;
+ 	 }
+	
+ 	 #gameContainer {
+  	  width: 100vw;
+  	  height: 100vh;
+  	  box-sizing: border-box;
+  	  margin: 0;
+  	  padding: 0;
+  	}
+    </style>
+  </head>
+  <link rel="icon" type="image/x-icon" href="img/index.jpg" />
+  <link rel="stylesheet" href="TemplateData/style.css" />
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="js/unityloader35.js"></script>
+  <script src="/js/main.js"></script>
+  <body style="background-color:black;">
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "game.json", {
+        onProgress: UnityProgress,
+        Module: {
+          onRuntimeInitialized: function () {
+            UnityProgress(gameInstance, "complete");
+          },
+        },
+      });
+    </script>
+    <div class="webgl-content">
+      <div id="gameContainer"</div>
+    </div>
+  </body>
+</html>

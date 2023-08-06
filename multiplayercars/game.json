@@ -1,0 +1,13 @@
+{
+  "companyName": "Madalin Games",
+  "productName": "Madalin Cars Multiplayer",
+  "dataUrl": "https://cornandbutter.github.io/3kh0v3/projects/madalin-stunt-cars-3/unity/data.unityweb",
+  "asmCodeUrl": "https://cornandbutter.github.io/3kh0v3/projects/madalin-stunt-cars-3/unity/asmCode.unityweb",
+  "asmMemoryUrl": "https://cornandbutter.github.io/3kh0v3/projects/madalin-stunt-cars-3/unity/asmMemory.unityweb",
+  "asmFrameworkUrl": "https://cornandbutter.github.io/3kh0v3/projects/madalin-stunt-cars-3/unity/asmFramework.unityweb",
+  "TOTAL_MEMORY": 268435456,
+  "graphicsAPI": ["WebGL 2.0"],
+  "webglContextAttributes": { "preserveDrawingBuffer": false },
+  "splashScreenStyle": "Dark",
+  "backgroundColor": "#000000"
+}
